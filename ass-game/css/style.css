@@ -1,0 +1,137 @@
+body
+{
+  background-color: #272B30;
+  font-family: cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #32383e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #272b30;
+  border-radius: 50px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 0.5) inset;
+}
+.md-font
+{
+  font-size: 14px;
+}
+.sm-font
+{
+  font-size: 11px;
+}
+
+img
+{
+  display: block;
+  width: 100%;
+}
+.nav-link
+{
+  font-size: 12px;
+  color: white;
+}
+.nav-link:hover
+{
+  color: #0099CC;
+  transition: 0.5s;
+
+}
+.nav-link:focus
+{
+  color: #0099CC;
+
+}
+.fit-content
+{
+  width: fit-content;
+}
+nav
+{
+  transform: translateY(-30px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+nav
+{
+  top: 30px;
+}
+.layer
+{
+  background-image: url(../img/wraper.png);
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+}
+.card
+{
+    margin-top: 1rem;
+    padding:10px;
+    background-color: transparent;
+    transition: .3s linear;
+}
+.card:hover
+{
+  scale: 1.05;
+}
+.layerr
+{
+  filter: grayscale(0.6);
+  transition: transform 0.5s, filter 0.5s 0.1s;
+  cursor: pointer;
+}
+.layerr:hover
+{
+  filter: grayscale(0);
+}
+footer
+{
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+.pg
+{
+  height: 90px;
+}
+.page-title{width: 100%;height: 100vh;}
+.title-game
+{
+  background-color: #0DCAF0;
+  color: black;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.datils-game
+{
+  font-size: 12px;
+}
+.btn
+{
+  padding: .4rem .6rem  !important;
+}
+.btn:hover
+{
+  background-color: #FFC107 !important;
+  transition: 0.4s;
+}
+.close-btn
+{
+  font-size: 50px;
+  color: white !important;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+.close-btn:hover
+{
+  opacity: 1;
+}
